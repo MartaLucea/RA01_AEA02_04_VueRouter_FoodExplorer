@@ -1,13 +1,13 @@
 
-#Les Pitjors Receptes del Món
+# Les Pitjors Receptes del Món
 
 Aplicació web feta amb Vue 3 i Vite que mostra un llistat de les receptes mésFASTIGOSES del món, amb els seus ingredients i passos de preparació.
 
-###Instal·lació
+### Instal·lació
 npm install
 
-###Execució (Desenvolupament)
+### Execució (Desenvolupament)
 npm run dev
 
-###Producció
+### Producció
 npm run build
