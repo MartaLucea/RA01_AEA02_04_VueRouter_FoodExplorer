@@ -9,27 +9,27 @@ const receptaId = Number(route.params.id)
 const receptes = ref([
   {
     id: 1,
-    nom: "Pasta Carbonara",
-    descripcio: "Un dels clàssics italians més cremosos.",
+    nom: "Flam de Tonyina amb Mel i Cola-Cao",
+    descripcio: "Una barreja gelatinosa i tèbia on el suc de la llauna de tonyina es fusiona amb el cacao, coronat amb un fil de mel rància.",
     imatge: "https://unsplash.com",
-    ingredients: [ "Pasta", "Ou", "Formatge Pecorino", "Pancetta" ],
-    pasAPas: [ "Sofregir", "Bullir", "Barrejar", "Emplatar" ]
+    ingredients: [ "3 llaunes de tonyina en oli desfet", "4 ous sencers (amb un tros de closca de regal)", "Mig pot de mel líquida", "3 cullerades de Cola-Cao en pols" ],
+    pasAPas: [ "Triturar la tonyina amb el seu oli i el Cola-Cao fins a crear una pasta fosc i lluent", "Batre els ous i barrejar-ho tot en un motlle de silicona", "Enfornar al bany maria durant 40 minuts fins que quedi una textura tremolenca", "Desmotllar en calent i cobrir amb la mel perquè sembli caramel" ]
   },
   {
     id: 2,
-    nom: "Paella de Marisc",
-    descripcio: "Plat tradicional amb tot el gust del mar.",
+    nom: "Gelatina d'Aigua de Salstixes amb Olives Negres i Nesquik",
+    descripcio: "El líquid tèrbol de conservar les salsitxes de frankfurt portat a un altre nivell de repulsió gràcies a les làmines de gelatina.",
     imatge: "https://unsplash.com",
-    ingredients: [ "Arròs", "Gambes", "Calamars", "Caldo de peix", "Safrà" ],
-    pasAPas: [ "Sofregir el marisc i les verdures", "Afegir l'arròs i torrar-lo lleugerament", "Abocar el caldo i coure a foc mitjà", "Deixar reposar i servir" ]
+    ingredients: [ "El caldo de 2 llaunes de salsitxes", "6 làmines de gelatina neutra", "Un grapat d'olives negres picades", "2 cullerades de Nesquik" ],
+    pasAPas: [ "Escalfar l'aigua de les salsitxes fins que surtin bombolles i fer-hi dissoldre el Nesquik", "Afegir les làmines de gelatina prèviament hidratades i remenar amb energia", "Llançar els trossos d'oliva negra al fons del motlle perquè semblin insectes", "Deixar refredar a la nevera fins que quedi un bloc sòlid, compacte i pudent" ]
   },
   {
     id: 3,
-    nom: "Amanida Caprese",
-    descripcio: "Una opció fresca i lleugera típica de la Itàlia mediterrània.",
+    nom: "Pastís de Pa de Molde amb Natilles i Ceba Fregida",
+    descripcio: "Capes de pa tou i moll que absorbeixen unes natilles industrials de vainilla, intercalades amb ceba cruixent de bossa.",
     imatge: "https://unsplash.com",
-    ingredients: [ "Tomàquets frescos", "Formatge Mozzarella", "Fulles de alfàbrega", "Oli d'oliva verge extra", "Sal i pebre" ],
-    pasAPas: [ "Tallar els tomàquets i la mozzarella a rodanxes", "Alternar les rodanxes en un plat", "Afegir les fulles d'alfàbrega fresca", "Amanir amb oli d'oliva, sal i pebre" ]
+    ingredients: [ "Un paquet de pa de molde sense crosta", "Un pack de 4 natilles de supermercat", "Un pot de ceba fregida cruixent", "Un raig de vinagre de Mòdena" ],
+    pasAPas: [ "Col·locar una capa de pa de molde a la base d'un plat", "Untar un pot de natilles sencer fins que el pa quedi completament xop i desfet", "Llançar un grapat generós de ceba fregida per sobre per donar el toc de contrast", "Repetir el procés fins a fer 4 pisos i rematar amb el fil de vinagre negre" ]
   }
 ]);
 

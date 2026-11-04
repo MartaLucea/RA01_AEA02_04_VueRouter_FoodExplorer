@@ -4,20 +4,20 @@ import { ref } from 'vue';
 const receptes = ref([
   {
     id: 1,
-    nom: "Pasta Carbonara",
-    descripcio: "Un dels clàssics italians més cremosos.",
+    nom: "Flam de Tonyina amb Mel i Cola-Cao",
+    descripcio: "Una barreja gelatinosa i tèbia on el suc de la llauna de tonyina es fusiona amb el cacao, coronat amb un fil de mel rància.",
     imatge: "https://unsplash.com",
   },
   {
     id: 2,
-    nom: "Paella de Marisc",
-    descripcio: "Plat tradicional amb tot el gust del mar.",
+    nom: "Gelatina d'Aigua de Salstixes amb Olives Negres i Nesquik",
+    descripcio: "El líquid tèrbol de conservar les salsitxes de frankfurt portat a un altre nivell de repulsió gràcies a les làmines de gelatina.",
     imatge: "https://unsplash.com",
-  },
+ },
   {
     id: 3,
-    nom: "Amanida Caprese",
-    descripcio: "Una opció fresca i lleugera típica de la Itàlia mediterrània.",
+    nom: "Pastís de Pa de Molde amb Natilles i Ceba Fregida",
+    descripcio: "Capes de pa tou i moll que absorbeixen unes natilles industrials de vainilla, intercalades amb ceba cruixent de bossa.",
     imatge: "https://unsplash.com",
   }
 ]);
