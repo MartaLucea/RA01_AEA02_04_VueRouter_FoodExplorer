@@ -9,16 +9,19 @@ const router = createRouter({
     {
       path: "/receptes", 
       name: "receptes", component: () => import("../views/Recipes.vue"),
-      children: [
-        {
-          path: ':id', 
-          name: 'receptes-detail', component: () => import('../views/RecipesDetail.vue'),
-        }
-      ]
+    },
+    {
+      path: '/receptes/:id', 
+      name: 'receptes-detail', component: () => import('../views/RecipesDetail.vue'),
     },
     {
       path: "/notfound",
-      name: "notfound", component: () => import('../views/NotFound.vue'),
+      name: "notfound", 
+      component: () => import('../views/NotFound.vue'),
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: { name: 'notfound' }
     }
   ],
 })

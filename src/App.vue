@@ -1,21 +1,17 @@
 <script setup></script>
 
 <template>
-  <div>
-    <nav>
-      <RouterLink to="/"> 🏠 Inici </RouterLink>
-      <RouterLink to="/frameworks"> ⚙️ Frameworks </RouterLink>
+  <div class="app-layout">
+    <nav class="navbar">
+      <RouterLink to="/" class="nav-link">Inici</RouterLink>
+      <RouterLink to="/receptes" class="nav-link">Receptes</RouterLink>
     </nav>
 
-    <main>
-      <RouterView />
+    <main class="main-content">
+      <RouterView :key="$route.fullPath" />
     </main>
   </div>
 </template>
 
 <style scoped>
-  nav{
-    background: #e0eafc;
-    padding: 10px;
-  }
 </style>
