@@ -6,19 +6,19 @@ const receptes = ref([
     id: 1,
     nom: "Flam de Tonyina amb Mel i Cola-Cao",
     descripcio: "Una barreja gelatinosa i tèbia on el suc de la llauna de tonyina es fusiona amb el cacao, coronat amb un fil de mel rància.",
-    imatge: "https://unsplash.com",
+    imatge: "/flan.jpeg",
   },
   {
     id: 2,
     nom: "Gelatina d'Aigua de Salstixes amb Olives Negres i Nesquik",
     descripcio: "El líquid tèrbol de conservar les salsitxes de frankfurt portat a un altre nivell de repulsió gràcies a les làmines de gelatina.",
-    imatge: "https://unsplash.com",
+    imatge: "/gelatina.jpeg",
  },
   {
     id: 3,
     nom: "Pastís de Pa de Molde amb Natilles i Ceba Fregida",
     descripcio: "Capes de pa tou i moll que absorbeixen unes natilles industrials de vainilla, intercalades amb ceba cruixent de bossa.",
-    imatge: "https://unsplash.com",
+    imatge: "/pastis.jpeg",
   }
 ]);
 </script>
